@@ -5,6 +5,7 @@ The entry is one line of error copy: the brutal truth about what broke,
 delivered with a laugh. Deterministic, offline, no arguments.
 """
 import os
+# Standard library only: no third-party packages, no network calls.
 
 
 ERROR_LINE = "Error 418: the database did not crash, it simply gave up after reading your migration and decided to become a spreadsheet."
